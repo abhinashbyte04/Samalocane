@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --brand-primary: #0d9488;
+    --brand-primary-dark: #0f766e;
+    --brand-bg: #f8fafc;
+    --brand-surface: #ffffff;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+  }
+
+  html {
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased font-sans selection:bg-teal-100 selection:text-teal-900;
+    min-height: 100vh;
+  }
+
+  /* Improved Accessible Focus States */
+  :focus-visible {
+    @apply outline-none ring-2 ring-teal-600 ring-offset-2 ring-offset-white;
+  }
+
+  /* Accessible form elements */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  select,
+  textarea {
+    @apply transition-colors duration-150;
+  }
+}
+
+/* Custom pulse animations for network and emergency indicators */
+@keyframes signalGlow {
+  0% { opacity: 0.7; transform: scale(0.98); }
+  50% { opacity: 1; transform: scale(1.02); }
+  100% { opacity: 0.7; transform: scale(0.98); }
+}
+
+.animate-glow {
+  animation: signalGlow 2.5s infinite ease-in-out;
+}
+
+/* Custom delicate scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

@@ -1,0 +1,91 @@
+{
+  "version": "2026.10-offline-v1",
+  "disclaimer": "Emergency calling uses cellular network (GSM/CDMA). Internet connection is not required to dial native telephone links.",
+  "facilities": [
+    {
+      "id": "kumta-th-01",
+      "name": "Kumta Taluka General Hospital",
+      "facility_type": "Taluka Hospital",
+      "taluka": "Kumta",
+      "district": "Uttara Kannada",
+      "address": "Main Road, near Court Complex, Kumta, Karnataka 581343",
+      "contact_numbers": ["+918386222045", "+918386222108"],
+      "emergency_phone": "+918386222045",
+      "operating_hours": "24/7 Casualty & Emergency",
+      "ambulance_available": true
+    },
+    {
+      "id": "kumta-phc-02",
+      "name": "Baad Primary Health Centre",
+      "facility_type": "PHC",
+      "taluka": "Kumta",
+      "district": "Uttara Kannada",
+      "address": "Near Gram Panchayat, Baad Village, Kumta, Karnataka 581351",
+      "contact_numbers": ["+918386241210"],
+      "emergency_phone": "+918386241210",
+      "operating_hours": "09:00 AM - 04:30 PM",
+      "ambulance_available": false
+    },
+    {
+      "id": "karwar-dh-01",
+      "name": "Karwar District Hospital",
+      "facility_type": "Taluka Hospital",
+      "taluka": "Karwar",
+      "district": "Uttara Kannada",
+      "address": "MG Road, Karwar, Karnataka 581301",
+      "contact_numbers": ["+918382226250", "+918382226251"],
+      "emergency_phone": "+918382226250",
+      "operating_hours": "24/7 Critical Care & Blood Bank",
+      "ambulance_available": true
+    },
+    {
+      "id": "madikeri-dh-01",
+      "name": "Madikeri District Hospital",
+      "facility_type": "Taluka Hospital",
+      "taluka": "Madikeri",
+      "district": "Kodagu",
+      "address": "Hospital Road, Stuart Hill, Madikeri, Karnataka 571201",
+      "contact_numbers": ["+918272228345", "+918272228346"],
+      "emergency_phone": "+918272228345",
+      "operating_hours": "24/7 Trauma & Emergency",
+      "ambulance_available": true
+    },
+    {
+      "id": "madikeri-phc-02",
+      "name": "Bhagamandala Primary Health Centre",
+      "facility_type": "PHC",
+      "taluka": "Madikeri",
+      "district": "Kodagu",
+      "address": "Triveni Sangama Road, Bhagamandala, Karnataka 571247",
+      "contact_numbers": ["+918272243220"],
+      "emergency_phone": "+918272243220",
+      "operating_hours": "09:00 AM - 04:30 PM",
+      "ambulance_available": true
+    },
+    {
+      "id": "sakleshpur-chc-01",
+      "name": "Sakleshpur Community Health Centre",
+      "facility_type": "CHC",
+      "taluka": "Sakleshpur",
+      "district": "Hassan",
+      "address": "BM Road, Sakleshpur, Karnataka 573134",
+      "contact_numbers": ["+918173244033"],
+      "emergency_phone": "+918173244033",
+      "operating_hours": "24/7 Casualty Available",
+      "ambulance_available": true
+    },
+    {
+      "id": "bhatkal-th-01",
+      "name": "Bhatkal Taluka Hospital",
+      "facility_type": "Taluka Hospital",
+      "taluka": "Bhatkal",
+      "district": "Uttara Kannada",
+      "address": "Near Bus Stand, Bhatkal, Karnataka 581320",
+      "contact_numbers": ["+918385226312"],
+      "emergency_phone": "+918385226312",
+      "operating_hours": "24/7 Emergency Care",
+      "ambulance_available": true
+    }
+  ]
+}
+

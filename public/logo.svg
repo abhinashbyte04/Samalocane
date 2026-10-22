@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d9488"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="pulseGrad" x1="9" y1="24" x2="39" y2="24" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="60%" stop-color="#0d9488"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="1.5" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Base Rounded Squircle Tile -->
+  <rect width="48" height="48" rx="11" fill="url(#brandGrad)"/>
+
+  <!-- Subtle Top-Right Connectivity Signal Arcs -->
+  <path d="M30 11a7 7 0 0 1 7 7" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" opacity="0.9"/>
+  <path d="M31 6a12 12 0 0 1 11 11" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" opacity="0.55"/>
+
+  <!-- Clean Medical Cross (White with subtle shadow) -->
+  <g filter="url(#dropShadow)">
+    <rect x="19" y="9" width="10" height="30" rx="2.5" fill="#ffffff"/>
+    <rect x="9" y="19" width="30" height="10" rx="2.5" fill="#ffffff"/>
+  </g>
+
+  <!-- Digital Telemedicine ECG Pulse Waveform -->
+  <path d="M9 24h7l2.2-7.5 3.6 15 3.2-11 2 4.5 1.8-1h9.2" 
+        stroke="url(#pulseGrad)" 
+        stroke-width="2.2" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+
+  <!-- Telemedicine Signal Node -->
+  <circle cx="38" cy="24" r="1.8" fill="#0284c7"/>
+</svg>
