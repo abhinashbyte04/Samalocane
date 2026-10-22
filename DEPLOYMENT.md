@@ -73,3 +73,4 @@ Once deployed, verify your deployment:
 - Patient Directory: `https://<your-app>.vercel.app/patient`
 - Doctor Directory: `https://<your-app>.vercel.app/doctor`
 - Health Endpoint: `https://<your-app>.vercel.app/api/health`
+
